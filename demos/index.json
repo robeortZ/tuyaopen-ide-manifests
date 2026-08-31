@@ -1539,7 +1539,8 @@
         "waveshare-t5ai-touch-amoled-175",
         "zectrix-t5ai-note-4",
         "xingzhi-esp32s3-cube-0-96-oled-wifi",
-        "sparkleiot-t5ai-dev"
+        "sparkleiot-t5ai-dev",
+        "seeed-xiao-esp32s3-sense"
       ],
       "compatibilityType": "board-specific",
       "detailUrl": "demos/app/tuya-ai-your-chat-bot.json",
