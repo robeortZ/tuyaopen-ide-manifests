@@ -288,3 +288,309 @@
     }
   ]
 }
+{
+  "id": "tuya-ai-your-chat-bot",
+  "cloud": {
+    "oemUrl": "https://pbt.tuya.com/s?p=833cbc87de4a645ec6be81d90a94e022&u=6232683ef12714848fae37955806cb9e&t=2",
+    "pid": {
+      "via": "kconfig"
+    }
+  },
+  "source": "https://github.com/tuya/TuyaOpen/tree/master/apps/tuya.ai/your_chat_bot",
+  "configs": [
+    {
+      "board": "tuya-t5ai-core",
+      "options": [
+        {
+          "file": "TUYA_T5AI_CORE.config",
+          "name": {
+            "en": "Tuya T5AI-Core",
+            "zh-CN": "涂鸦 T5AI-Core 核心板"
+          },
+          "peripherals": [
+            "audio",
+            "led",
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "board": "tuya-t5ai-board",
+      "options": [
+        {
+          "file": "TUYA_T5AI_BOARD_LCD_3.5_CAM_PRINTER.config",
+          "name": {
+            "en": "3.5\" LCD + Camera + Printer",
+            "zh-CN": "3.5寸 LCD + 摄像头 + 打印机"
+          },
+          "peripherals": [
+            "button",
+            "audio",
+            "led",
+            "group-mpxn93yq",
+            "camera",
+            "printer"
+          ]
+        },
+        {
+          "file": "TUYA_T5AI_BOARD_LCD_3.5_CAMERA.config",
+          "name": {
+            "en": "3.5\" LCD + Camera",
+            "zh-CN": "3.5寸 LCD 触摸屏 + 摄像头"
+          },
+          "peripherals": [
+            "button",
+            "audio",
+            "led",
+            "group-mpxn93yq",
+            "camera"
+          ]
+        },
+        {
+          "file": "TUYA_T5AI_BOARD_LCD_3.5.config",
+          "name": {
+            "en": "3.5\" LCD",
+            "zh-CN": "3.5寸 LCD 触摸屏"
+          },
+          "peripherals": [
+            "button",
+            "audio",
+            "led",
+            "group-mpxn93yq"
+          ]
+        }
+      ]
+    },
+    {
+      "board": "tuya-t5ai-evb",
+      "options": [
+        {
+          "file": "TUYA_T5AI_EVB.config",
+          "name": {
+            "en": "Tuya T5AI EVB",
+            "zh-CN": "涂鸦 T5AI 白盒"
+          },
+          "peripherals": [
+            "led"
+          ]
+        }
+      ]
+    },
+    {
+      "board": "waveshare-t5ai-touch-amoled-175",
+      "options": [
+        {
+          "file": "WAVESHARE_T5AI_TOUCH_AMOLED_1_75.config",
+          "name": {
+            "en": "Waveshare T5AI Touch AMOLED 1.75\"",
+            "zh-CN": "微雪 T5AI 1.75 寸触摸 AMOLED"
+          },
+          "peripherals": [
+            "audio",
+            "display",
+            "touchpad",
+            "led",
+            "button",
+            "power"
+          ]
+        }
+      ]
+    },
+    {
+      "board": "zectrix-t5ai-note-4",
+      "options": [
+        {
+          "file": "ZECTRIX_T5AI_NOTE_4.config",
+          "name": {
+            "en": "Zectrix T5AI Note 4",
+            "zh-CN": "极趣 AI 便利贴"
+          },
+          "peripherals": [
+            "audio",
+            "display",
+            "led",
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "board": "atk-dnesp32s3",
+      "options": [
+        {
+          "file": "DNESP32S3.config",
+          "name": {
+            "en": "ALIENTEK DNESP32S3",
+            "zh-CN": "正点原子 DNESP32S3"
+          },
+          "peripherals": [
+            "audio",
+            "led",
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "board": "atk-dnesp32s3-box",
+      "options": [
+        {
+          "file": "DNESP32S3_BOX.config",
+          "name": {
+            "en": "ALIENTEK DNESP32S3-BOX",
+            "zh-CN": "正点原子 DNESP32S3-BOX"
+          },
+          "peripherals": [
+            "audio",
+            "display",
+            "led",
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "board": "atk-dnesp32s3-box2-wifi",
+      "options": [
+        {
+          "file": "DNESP32S3_BOX2_WIFI.config",
+          "name": {
+            "en": "ALIENTEK DNESP32S3-BOX2 (Wi-Fi)",
+            "zh-CN": "正点原子 DNESP32S3-BOX2 (Wi-Fi)"
+          },
+          "peripherals": [
+            "audio",
+            "display",
+            "led",
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "board": "esp32s3-bread-compact-wifi",
+      "options": [
+        {
+          "file": "ESP32S3_BREAD_COMPACT_WIFI.config",
+          "name": {
+            "en": "ESP32-S3 Bread Compact (Wi-Fi)",
+            "zh-CN": "ESP32-S3 面包板紧凑型 (Wi-Fi)"
+          },
+          "peripherals": [
+            "audio",
+            "led",
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "board": "waveshare-esp32s3-touch-amoled-1-8",
+      "options": [
+        {
+          "file": "WAVESHARE_ESP32S3_TOUCH_AMOLED_1_8.config",
+          "name": {
+            "en": "Waveshare ESP32-S3 Touch AMOLED 1.8\"",
+            "zh-CN": "微雪 ESP32-S3 Touch AMOLED 1.8 寸"
+          },
+          "peripherals": [
+            "audio",
+            "display",
+            "touchpad",
+            "led",
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "board": "xingzhi-esp32s3-cube-0-96-oled-wifi",
+      "options": [
+        {
+          "file": "XINGZHI_ESP32S3_Cube_0_96OLED_WIFI.config",
+          "name": {
+            "en": "Xingzhi ESP32-S3 Cube 0.96\" OLED",
+            "zh-CN": "行知 ESP32-S3 Cube 0.96 寸 OLED"
+          },
+          "peripherals": [
+            "audio",
+            "display",
+            "led",
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "board": "sparkleiot-t5ai-dev",
+      "options": [
+        {
+          "file": "SPARKLEIOT_T5AI_DEV.config",
+          "name": {
+            "en": "SparkleIoT T5AI Dev",
+            "zh-CN": "星火思创 T5AI 开发板"
+          }
+        }
+      ]
+    },
+    {
+      "board": "brd2605a",
+      "options": [
+        {
+          "file": "BRD2605A.config",
+          "name": {
+            "en": "SiWx917 BRD2605A",
+            "zh-CN": "SiWx917 BRD2605A"
+          },
+          "peripherals": [
+            "audio",
+            "led",
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "board": "siwx917-ai-dev-kit",
+      "options": [
+        {
+          "file": "SIWX917_AI_DEV_KIT.config",
+          "name": {
+            "en": "SiWx917 AI Dev Kit",
+            "zh-CN": "SiWx917 AI 开发套件"
+          },
+          "peripherals": [
+            "audio",
+            "led",
+            "button"
+          ]
+        }
+      ]
+    }
+  ],
+  "documentation": {
+    "readme": {
+      "en": "https://github.com/tuya/TuyaOpen/tree/master/apps/tuya.ai/your_chat_bot/README.md",
+      "zh-CN": "https://github.com/tuya/TuyaOpen/tree/master/apps/tuya.ai/your_chat_bot/README_zh.md"
+    }
+  },
+  "drivers": [
+    {
+      "driver": "audio",
+      "level": "required"
+    },
+    {
+      "driver": "display",
+      "level": "optional"
+    },
+    {
+      "driver": "button",
+      "level": "optional"
+    },
+    {
+      "driver": "led",
+      "level": "optional"
+    }
+  ]
+}

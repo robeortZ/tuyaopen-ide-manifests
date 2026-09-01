@@ -2109,3 +2109,2115 @@
     }
   ]
 }
+{
+  "schemaVersion": 1,
+  "domain": "demos",
+  "publishedAt": "2026-08-13T00:00:00Z",
+  "items": [
+    {
+      "id": "ble-ble-central",
+      "type": "example",
+      "name": {
+        "en": "BLE Central",
+        "zh-CN": "BLE Central"
+      },
+      "summary": {
+        "en": "Enables Bluetooth Central (host) mode, scans for nearby BLE devices, and reports discovery results.",
+        "zh-CN": "启用蓝牙中心设备（主机）模式，扫描附近 BLE 设备并上报发现结果。"
+      },
+      "tags": [
+        "ble"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/ble-ble-central.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "ble-ble-peripher",
+      "type": "example",
+      "name": {
+        "en": "BLE Peripheral",
+        "zh-CN": "BLE Peripheral"
+      },
+      "summary": {
+        "en": "Enables Bluetooth Peripheral (slave) mode and allows a phone to connect as the central device.",
+        "zh-CN": "启用蓝牙外围设备（从机）模式，允许手机作为中心设备连接。"
+      },
+      "tags": [
+        "ble"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/ble-ble-peripher.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "e-paper-1-54inch-e-paper",
+      "type": "example",
+      "name": {
+        "en": "E-Paper 1.54\" Display",
+        "zh-CN": "1.54 寸电子墨水屏"
+      },
+      "summary": {
+        "en": "Drives a 1.54-inch e-Paper display via SPI to render images, text, and graphics.",
+        "zh-CN": "通过 SPI 驱动 1.54 寸电子墨水屏，渲染图像、文字和图形。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/e-paper-1-54inch-e-paper.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "e-paper-2-13inch-e-paper-touch",
+      "type": "example",
+      "name": {
+        "en": "E-Paper 2.13\" Touch Display",
+        "zh-CN": "2.13 寸触摸电子墨水屏"
+      },
+      "summary": {
+        "en": "Drives a 2.13-inch e-Paper with touch input for menu navigation and drawing.",
+        "zh-CN": "驱动 2.13 寸电子墨水屏，配合触摸实现菜单导航与白板绘图。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/e-paper-2-13inch-e-paper-touch.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "e-paper-4-26inch-e-paper",
+      "type": "example",
+      "name": {
+        "en": "E-Paper 4.26\" Display",
+        "zh-CN": "4.26 寸电子墨水屏"
+      },
+      "summary": {
+        "en": "Drives a 4.26-inch e-Paper display via SPI to render images, text, and graphics.",
+        "zh-CN": "通过 SPI 驱动 4.26 寸电子墨水屏，渲染图像、文字和图形。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/e-paper-4-26inch-e-paper.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "games-lvgl-games",
+      "type": "app",
+      "name": {
+        "en": "LVGL Retro Games",
+        "zh-CN": "LVGL 复古游戏合集"
+      },
+      "summary": {
+        "en": "Runs classic retro games (2048, Plants vs Zombies, match-3) using LVGL on T5AI touchscreen boards.",
+        "zh-CN": "在 T5AI 触摸屏开发板上运行基于 LVGL 的经典游戏（2048、植物大战僵尸、消消乐）。"
+      },
+      "tags": [
+        "game"
+      ],
+      "boards": [
+        "tuya-t5ai-board",
+        "tuya-t5ai-evb"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/games-lvgl-games.json",
+      "image": {
+        "url": "images/games-lvgl-games/games-lvgl-games.jpg"
+      },
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "get-started-cxx",
+      "type": "example",
+      "name": {
+        "en": "C++ Integration Starter",
+        "zh-CN": "C++ 集成入门"
+      },
+      "summary": {
+        "en": "Demonstrates mixing C++ classes with C code in a TuyaOpen project.",
+        "zh-CN": "演示在 TuyaOpen 项目中混合使用 C++ 类与 C 代码。"
+      },
+      "tags": [
+        "getting-started"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/get-started-cxx.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "get-started-sample-project",
+      "type": "example",
+      "name": {
+        "en": "Minimal Project Template",
+        "zh-CN": "最小工程模板"
+      },
+      "summary": {
+        "en": "Minimal hello-world project template with logging and basic control flow.",
+        "zh-CN": "包含日志输出和基本控制流的最小 hello-world 工程模板。"
+      },
+      "tags": [
+        "getting-started"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/get-started-sample-project.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "graphics-lvgl-camera",
+      "type": "example",
+      "name": {
+        "en": "LVGL Camera Preview",
+        "zh-CN": "LVGL 摄像头预览"
+      },
+      "summary": {
+        "en": "Switches between an LVGL GUI and live camera preview on an LCD via button press.",
+        "zh-CN": "通过按键在 LVGL 界面与摄像头实时预览之间切换显示。"
+      },
+      "tags": [
+        "graphics"
+      ],
+      "boards": [
+        "tuya-t5ai-board"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/graphics-lvgl-camera.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "graphics-lvgl-demo",
+      "type": "example",
+      "name": {
+        "en": "LVGL Widgets Demo",
+        "zh-CN": "LVGL 控件演示"
+      },
+      "summary": {
+        "en": "Runs the built-in LVGL widgets demo on a display with touch and encoder support.",
+        "zh-CN": "在屏幕上运行 LVGL 内置控件演示，支持触摸和编码器。"
+      },
+      "tags": [
+        "graphics"
+      ],
+      "boards": [
+        "tuya-t5ai-board",
+        "tuya-t5ai-evb",
+        "tuya-t5ai-pocket",
+        "waveshare-t5ai-touch-amoled-175",
+        "atk-dnesp32s3",
+        "atk-dnesp32s3-box",
+        "atk-dnesp32s3-box2-wifi",
+        "waveshare-esp32p4c6-touch-lcd-4-3",
+        "waveshare-esp32s3-touch-amoled-1-8",
+        "zectrix-t5ai-note-4"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/graphics-lvgl-demo.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "graphics-lvgl-gif",
+      "type": "example",
+      "name": {
+        "en": "LVGL GIF Animation",
+        "zh-CN": "LVGL GIF 动画播放"
+      },
+      "summary": {
+        "en": "Displays animated GIF images on one or two LCD screens using LVGL.",
+        "zh-CN": "使用 LVGL 在单屏或双屏上显示 GIF 动画图像。"
+      },
+      "tags": [
+        "graphics"
+      ],
+      "boards": [
+        "atk-dnesp32s3",
+        "atk-dnesp32s3-box",
+        "atk-dnesp32s3-box2-wifi",
+        "tuya-t5ai-board",
+        "tuya-t5ai-pocket",
+        "waveshare-esp32p4c6-touch-lcd-4-3",
+        "waveshare-esp32s3-touch-amoled-1-8",
+        "waveshare-t5ai-touch-amoled-175",
+        "zectrix-t5ai-note-4"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/graphics-lvgl-gif.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "graphics-lvgl-label",
+      "type": "example",
+      "name": {
+        "en": "LVGL Label Rendering",
+        "zh-CN": "LVGL 标签显示"
+      },
+      "summary": {
+        "en": "Initializes the LVGL graphics library and renders a centered text label on the screen.",
+        "zh-CN": "初始化 LVGL 图形库并在屏幕居中渲染文本标签。"
+      },
+      "tags": [
+        "graphics"
+      ],
+      "boards": [
+        "tuya-t5ai-board",
+        "tuya-t5ai-pocket",
+        "zectrix-t5ai-note-4"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/graphics-lvgl-label.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "graphics-lvgl-simulator",
+      "type": "example",
+      "name": {
+        "en": "LVGL PC Simulator",
+        "zh-CN": "LVGL PC 模拟器"
+      },
+      "summary": {
+        "en": "Runs LVGL UIs on desktop via SDL2 without hardware.",
+        "zh-CN": "通过 SDL2 在桌面端运行 LVGL 界面，无需硬件。"
+      },
+      "tags": [
+        "graphics"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/graphics-lvgl-simulator.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "graphics-u8g2-i2c",
+      "type": "example",
+      "name": {
+        "en": "U8g2 OLED via I2C",
+        "zh-CN": "U8g2 I2C OLED 显示"
+      },
+      "summary": {
+        "en": "Drives an SSD1306 128x64 OLED over I2C using U8g2 page-mode rendering.",
+        "zh-CN": "使用 U8g2 页模式通过 I2C 驱动 SSD1306 128x64 OLED。"
+      },
+      "tags": [
+        "graphics"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/graphics-u8g2-i2c.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "graphics-u8g2-spi",
+      "type": "example",
+      "name": {
+        "en": "U8g2 Display via SPI",
+        "zh-CN": "U8g2 SPI 显示"
+      },
+      "summary": {
+        "en": "Drives an ST7305 display over SPI using U8g2 full-buffer mode rendering.",
+        "zh-CN": "使用 U8g2 全缓冲模式通过 SPI 驱动 ST7305 显示屏。"
+      },
+      "tags": [
+        "graphics"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/graphics-u8g2-spi.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "graphics-u8g2-tdl-disp",
+      "type": "example",
+      "name": {
+        "en": "U8g2 via TDL Display Layer",
+        "zh-CN": "U8g2 TDL 显示驱动"
+      },
+      "summary": {
+        "en": "Renders U8g2 graphics through the TDL display abstraction layer for hardware-agnostic output.",
+        "zh-CN": "通过 TDL 显示抽象层渲染 U8g2 图形，实现硬件无关输出。"
+      },
+      "tags": [
+        "graphics"
+      ],
+      "boards": [
+        "tuya-t5ai-board",
+        "tuya-t5ai-eink-nfc",
+        "tuya-t5ai-pocket"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/graphics-u8g2-tdl-disp.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "micropython-mpy-minimal",
+      "type": "app",
+      "name": {
+        "en": "MicroPython Minimal Boot",
+        "zh-CN": "MicroPython 最小启动"
+      },
+      "summary": {
+        "en": "Boots a minimal firmware that initializes a MicroPython REPL on UART.",
+        "zh-CN": "启动最小固件，在 UART 上初始化 MicroPython REPL 交互环境。"
+      },
+      "tags": [
+        "micropython"
+      ],
+      "boards": [],
+      "compatibilityType": "platform",
+      "detailUrl": "demos/app/micropython-mpy-minimal.json",
+      "image": {
+        "url": "images/micropython-mpy-minimal/micropython-mpy-minimal.jpg"
+      },
+      "publish": true,
+      "platforms": [
+        "t5ai"
+      ],
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "mimiclaw",
+      "type": "app",
+      "name": {
+        "en": "MimiClaw AI Agent",
+        "zh-CN": "MimiClaw AI 智能体"
+      },
+      "summary": {
+        "en": "Local-first AI assistant with LLM chat via Feishu, Telegram, or Discord.",
+        "zh-CN": "本地优先的 AI 助手，支持飞书/Telegram/Discord 聊天。"
+      },
+      "tags": [
+        "ai"
+      ],
+      "boards": [],
+      "compatibilityType": "platform",
+      "detailUrl": "demos/app/mimiclaw.json",
+      "image": {
+        "url": "images/mimiclaw/mimiclaw.jpg"
+      },
+      "publish": true,
+      "platforms": [
+        "t5ai"
+      ],
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "multimedia-audio-kws",
+      "type": "example",
+      "name": {
+        "en": "Audio Keyword Spotting",
+        "zh-CN": "语音关键词唤醒"
+      },
+      "summary": {
+        "en": "Captures microphone audio and performs on-device keyword wake-word recognition.",
+        "zh-CN": "采集麦克风音频并在设备端执行关键词唤醒识别。"
+      },
+      "tags": [
+        "multimedia"
+      ],
+      "boards": [
+        "tuya-t5ai-board",
+        "tuya-t5ai-pocket"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/multimedia-audio-kws.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "multimedia-audio-player-music",
+      "type": "example",
+      "name": {
+        "en": "Network Music Player",
+        "zh-CN": "网络音乐播放"
+      },
+      "summary": {
+        "en": "Connects to Wi-Fi and streams MP3 music from a URL for decoded audio playback.",
+        "zh-CN": "连接 Wi-Fi 后从 URL 串流 MP3 音乐进行解码播放。"
+      },
+      "tags": [
+        "multimedia"
+      ],
+      "boards": [
+        "tuya-t5ai-board",
+        "tuya-t5ai-pocket"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/multimedia-audio-player-music.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "multimedia-audio-player-tts",
+      "type": "example",
+      "name": {
+        "en": "TTS Audio Playback",
+        "zh-CN": "TTS 语音播放"
+      },
+      "summary": {
+        "en": "Plays a pre-embedded MP3 speech audio array through the audio player service.",
+        "zh-CN": "通过音频播放服务播放预嵌入的 MP3 语音数组。"
+      },
+      "tags": [
+        "multimedia"
+      ],
+      "boards": [
+        "tuya-t5ai-board",
+        "tuya-t5ai-pocket"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/multimedia-audio-player-tts.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "multimedia-audio-recorder-output-sdcard",
+      "type": "example",
+      "name": {
+        "en": "Audio Recorder to SD Card",
+        "zh-CN": "录音存 SD 卡"
+      },
+      "summary": {
+        "en": "Records microphone audio as PCM, encodes it to WAV, and saves the file to an SD card.",
+        "zh-CN": "录制麦克风 PCM 音频，编码为 WAV 格式并保存到 SD 卡。"
+      },
+      "tags": [
+        "multimedia"
+      ],
+      "boards": [
+        "tuya-t5ai-board",
+        "tuya-t5ai-pocket"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/multimedia-audio-recorder-output-sdcard.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "multimedia-audio-vad",
+      "type": "example",
+      "name": {
+        "en": "Voice Activity Detection",
+        "zh-CN": "语音活动检测"
+      },
+      "summary": {
+        "en": "Feeds audio frames to a VAD engine and reports speech-start and speech-end transitions.",
+        "zh-CN": "将音频帧送入 VAD 引擎并报告语音起止状态变化。"
+      },
+      "tags": [
+        "multimedia"
+      ],
+      "boards": [
+        "tuya-t5ai-board",
+        "tuya-t5ai-pocket"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/multimedia-audio-vad.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-adc",
+      "type": "example",
+      "name": {
+        "en": "ADC Analog-to-Digital",
+        "zh-CN": "ADC 模数转换"
+      },
+      "summary": {
+        "en": "Reads analog voltage from an ADC channel and converts it to a digital value.",
+        "zh-CN": "从 ADC 通道读取模拟电压并转换为数字值。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/peripherals-adc.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-audio-codecs",
+      "type": "example",
+      "name": {
+        "en": "Audio Codec Record/Playback",
+        "zh-CN": "Audio Codec 录放音"
+      },
+      "summary": {
+        "en": "Records PCM audio into a ring buffer on button press and plays it back through the codec.",
+        "zh-CN": "按键录制 PCM 音频到环形缓冲区并通过编解码器回放。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [
+        "atk-dnesp32s3",
+        "atk-dnesp32s3-box",
+        "atk-dnesp32s3-box2-wifi",
+        "esp32s3-bread-compact-wifi",
+        "tuya-t5ai-board",
+        "tuya-t5ai-pocket",
+        "waveshare-esp32s3-touch-amoled-1-8"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/peripherals-audio-codecs.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-button",
+      "type": "example",
+      "name": {
+        "en": "Button Input",
+        "zh-CN": "按键输入"
+      },
+      "summary": {
+        "en": "Detects button press-down and long-press events via callback-driven event handling.",
+        "zh-CN": "通过回调驱动的事件处理检测按键按下和长按事件。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [
+        "atk-dnesp32s3",
+        "atk-dnesp32s3-box",
+        "atk-dnesp32s3-box2-wifi",
+        "esp32s3-bread-compact-wifi",
+        "t5ai-mini",
+        "tuya-t5ai-board",
+        "tuya-t5ai-evb",
+        "tuya-t5ai-pocket",
+        "waveshare-esp32s3-touch-amoled-1-8",
+        "zectrix-t5ai-note-4"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/peripherals-button.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-camera-output-display",
+      "type": "example",
+      "name": {
+        "en": "Camera Display Output",
+        "zh-CN": "摄像头屏幕输出"
+      },
+      "summary": {
+        "en": "Captures camera frames and renders them on an LCD with optional rotation.",
+        "zh-CN": "采集摄像头画面并输出到 LCD 显示，支持旋转。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [
+        "atk-dnesp32s3",
+        "tuya-t5ai-board",
+        "tuya-t5ai-pocket"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/peripherals-camera-output-display.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-camera-output-sdcard",
+      "type": "example",
+      "name": {
+        "en": "Camera Capture to SD Card",
+        "zh-CN": "摄像头抓帧存 SD 卡"
+      },
+      "summary": {
+        "en": "Captures H.264 video frames from a camera and saves them as files on an SD card.",
+        "zh-CN": "从摄像头捕获 H.264 视频帧并保存到 SD 卡文件。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [
+        "tuya-t5ai-board",
+        "tuya-t5ai-pocket"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/peripherals-camera-output-sdcard.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-display-fill-color",
+      "type": "example",
+      "name": {
+        "en": "Display Color Fill",
+        "zh-CN": "显示屏颜色填充"
+      },
+      "summary": {
+        "en": "Fills the entire display with random colors in a continuous loop to verify the driver.",
+        "zh-CN": "以随机颜色持续填充整块显示屏以验证驱动程序。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [
+        "atk-dnesp32s3",
+        "atk-dnesp32s3-box2-wifi",
+        "tuya-t5ai-board",
+        "tuya-t5ai-evb",
+        "tuya-t5ai-pocket",
+        "waveshare-esp32p4c6-touch-lcd-4-3",
+        "waveshare-esp32s3-touch-amoled-1-8",
+        "waveshare-t5ai-touch-amoled-175"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/peripherals-display-fill-color.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-display-picture",
+      "type": "example",
+      "name": {
+        "en": "Display Image Rendering",
+        "zh-CN": "显示屏图片渲染"
+      },
+      "summary": {
+        "en": "Renders a pre-stored RGB565 image array onto the display with pixel format conversion.",
+        "zh-CN": "将预存的 RGB565 图片数组经像素格式转换渲染到显示屏。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [
+        "atk-dnesp32s3",
+        "tuya-t5ai-board",
+        "tuya-t5ai-evb",
+        "tuya-t5ai-pocket",
+        "waveshare-esp32p4c6-touch-lcd-4-3",
+        "waveshare-esp32s3-touch-amoled-1-8",
+        "waveshare-t5ai-touch-amoled-175",
+        "zectrix-t5ai-note-4"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/peripherals-display-picture.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-encoder",
+      "type": "example",
+      "name": {
+        "en": "Rotary Encoder Input",
+        "zh-CN": "旋转编码器输入"
+      },
+      "summary": {
+        "en": "Polls a rotary encoder for angle changes and button press events at fixed intervals.",
+        "zh-CN": "以固定间隔轮询旋转编码器的角度变化和按键事件。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/peripherals-encoder.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-flash",
+      "type": "example",
+      "name": {
+        "en": "Flash Read/Write",
+        "zh-CN": "Flash 读写"
+      },
+      "summary": {
+        "en": "Erases, writes, and reads back test data on an on-chip user flash partition.",
+        "zh-CN": "对片上用户 Flash 分区执行擦除、写入和回读验证操作。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/peripherals-flash.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-gpio",
+      "type": "example",
+      "name": {
+        "en": "GPIO Input/Output",
+        "zh-CN": "GPIO 输入输出"
+      },
+      "summary": {
+        "en": "Demonstrates GPIO pin input, output, and interrupt handling.",
+        "zh-CN": "演示 GPIO 引脚的输入、输出及中断功能的使用方法。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/peripherals-gpio.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-i2c-i2c-scan",
+      "type": "example",
+      "name": {
+        "en": "I2C Bus Scanner",
+        "zh-CN": "I2C 总线扫描"
+      },
+      "summary": {
+        "en": "Scans all 7-bit I2C addresses and reports detected device addresses.",
+        "zh-CN": "扫描所有 7 位 I2C 地址并输出已检测到的设备地址。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/peripherals-i2c-i2c-scan.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-i2c-sht3x-4x-sensor",
+      "type": "example",
+      "name": {
+        "en": "SHT3x/SHT4x Temperature Sensor",
+        "zh-CN": "SHT3x/SHT4x 温湿度传感器"
+      },
+      "summary": {
+        "en": "Reads temperature and humidity from SHT3x or SHT4x sensors over I2C.",
+        "zh-CN": "通过 I2C 读取 SHT3x 或 SHT4x 传感器的温湿度数据。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/peripherals-i2c-sht3x-4x-sensor.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-imu-bmi270",
+      "type": "example",
+      "name": {
+        "en": "BMI270 IMU Sensor",
+        "zh-CN": "BMI270 惯性传感器"
+      },
+      "summary": {
+        "en": "Reads accelerometer and gyroscope data from a BMI270 IMU sensor over I2C.",
+        "zh-CN": "通过 I2C 读取 BMI270 IMU 传感器的加速度和陀螺仪数据。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/peripherals-imu-bmi270.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-ir",
+      "type": "example",
+      "name": {
+        "en": "Infrared Transceiver",
+        "zh-CN": "红外收发"
+      },
+      "summary": {
+        "en": "Transmits and receives infrared signals using NEC protocol and raw timecode modes.",
+        "zh-CN": "使用 NEC 协议和原始时序模式收发红外信号。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "platform",
+      "detailUrl": "demos/example/peripherals-ir.json",
+      "publish": true,
+      "platforms": [
+        "t5ai"
+      ],
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-joystick",
+      "type": "example",
+      "name": {
+        "en": "Joystick Input",
+        "zh-CN": "摇杆输入"
+      },
+      "summary": {
+        "en": "Reads analog joystick direction and button events via ADC and GPIO.",
+        "zh-CN": "通过 ADC 和 GPIO 读取摇杆方向及按键事件。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [
+        "tuya-t5ai-pocket"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/peripherals-joystick.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-led",
+      "type": "example",
+      "name": {
+        "en": "LED Control",
+        "zh-CN": "LED 控制"
+      },
+      "summary": {
+        "en": "Controls an LED with on/off switching, configurable blink count, and continuous flash modes.",
+        "zh-CN": "控制 LED 实现开关切换、可配置次数闪烁及持续闪烁模式。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [
+        "atk-dnesp32s3",
+        "atk-dnesp32s3-box",
+        "esp32s3-bread-compact-wifi",
+        "t5ai-mini",
+        "tuya-t5ai-board",
+        "tuya-t5ai-evb",
+        "tuya-t5ai-pocket",
+        "waveshare-esp32c6-dev-kit-n16",
+        "zectrix-t5ai-note-4"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/peripherals-led.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-leds-pixel",
+      "type": "example",
+      "name": {
+        "en": "LED Pixel Strip",
+        "zh-CN": "LED 像素灯带"
+      },
+      "summary": {
+        "en": "Drives addressable LED strips (WS2812, SK6812) with sequential RGB color cycling.",
+        "zh-CN": "驱动可寻址 LED 灯带(WS2812、SK6812)进行 RGB 颜色循环。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [
+        "tuya-t5ai-pixel"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/peripherals-leds-pixel.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-pwm",
+      "type": "example",
+      "name": {
+        "en": "PWM Pulse Width Modulation",
+        "zh-CN": "PWM 脉宽调制"
+      },
+      "summary": {
+        "en": "Outputs PWM signals with configurable frequency and duty cycle for analog control.",
+        "zh-CN": "输出可配置频率和占空比的 PWM 信号，用于模拟控制。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/peripherals-pwm.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-sd",
+      "type": "example",
+      "name": {
+        "en": "SD Card File I/O",
+        "zh-CN": "SD 卡文件读写"
+      },
+      "summary": {
+        "en": "Mounts an SD card and performs file write, read, and content comparison verification.",
+        "zh-CN": "挂载 SD 卡并执行文件写入、读取和内容比对验证。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [
+        "atk-dnesp32s3",
+        "atk-dnesp32s3-box2-wifi",
+        "tuya-t5ai-board",
+        "tuya-t5ai-pocket",
+        "waveshare-esp32s3-touch-amoled-1-8",
+        "zectrix-t5ai-note-4",
+        "sparkleiot-t5ai-dev"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/peripherals-sd.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-spi",
+      "type": "example",
+      "name": {
+        "en": "SPI Master/Slave",
+        "zh-CN": "SPI 主从通信"
+      },
+      "summary": {
+        "en": "Configures SPI master to send data and slave to receive, demonstrating full-duplex communication.",
+        "zh-CN": "配置 SPI 主机发送数据、从机接收，演示全双工串行通信。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/peripherals-spi.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-timer",
+      "type": "example",
+      "name": {
+        "en": "Hardware Timer",
+        "zh-CN": "硬件定时器"
+      },
+      "summary": {
+        "en": "Creates a periodic hardware timer that fires callbacks and self-releases after a set count.",
+        "zh-CN": "创建周期性硬件定时器，回调指定次数后自行释放。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/peripherals-timer.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-touch",
+      "type": "example",
+      "name": {
+        "en": "Capacitive Touch Driver",
+        "zh-CN": "电容触摸驱动"
+      },
+      "summary": {
+        "en": "Drives a capacitive touch sensor to detect touch events and report coordinates.",
+        "zh-CN": "驱动电容触摸传感器检测触摸事件并上报坐标。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "platform",
+      "detailUrl": "demos/example/peripherals-touch.json",
+      "publish": true,
+      "platforms": [
+        "t5ai"
+      ],
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-tp",
+      "type": "example",
+      "name": {
+        "en": "Touch Panel Input",
+        "zh-CN": "触摸屏输入"
+      },
+      "summary": {
+        "en": "Reads multi-point touch coordinates from a touch panel in a continuous polling loop.",
+        "zh-CN": "在持续轮询循环中读取触摸屏的多点触控坐标。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/example/peripherals-tp.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-uart",
+      "type": "example",
+      "name": {
+        "en": "UART Serial Communication",
+        "zh-CN": "UART 串口通信"
+      },
+      "summary": {
+        "en": "Sends and receives data over UART with configurable baud rate, data bits, and parity.",
+        "zh-CN": "通过 UART 收发数据，支持配置波特率、数据位和校验位。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/peripherals-uart.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "peripherals-watchdog",
+      "type": "example",
+      "name": {
+        "en": "Watchdog Timer",
+        "zh-CN": "看门狗定时器"
+      },
+      "summary": {
+        "en": "Initializes a watchdog timer, feeds it periodically, then stops to trigger a reset.",
+        "zh-CN": "初始化看门狗并定期喂狗，停止后触发系统复位。"
+      },
+      "tags": [
+        "peripheral"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/peripherals-watchdog.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "protocols-http-client",
+      "type": "example",
+      "name": {
+        "en": "HTTP Client",
+        "zh-CN": "HTTP 客户端"
+      },
+      "summary": {
+        "en": "Sends an HTTP GET request and prints the response after network link-up.",
+        "zh-CN": "网络连接后发送 HTTP GET 请求并打印响应内容。"
+      },
+      "tags": [
+        "networking"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/protocols-http-client.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "protocols-https-client",
+      "type": "example",
+      "name": {
+        "en": "HTTPS Client",
+        "zh-CN": "HTTPS 客户端"
+      },
+      "summary": {
+        "en": "Sends an HTTPS GET request with TLS certificate verification.",
+        "zh-CN": "使用 TLS 证书验证发送 HTTPS GET 请求。"
+      },
+      "tags": [
+        "networking"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/protocols-https-client.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "protocols-mqtt-client",
+      "type": "example",
+      "name": {
+        "en": "MQTT Client",
+        "zh-CN": "MQTT 客户端"
+      },
+      "summary": {
+        "en": "Connects to an MQTT broker, subscribes to a topic, and publishes messages.",
+        "zh-CN": "连接 MQTT Broker，订阅主题并发布消息。"
+      },
+      "tags": [
+        "networking"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/protocols-mqtt-client.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "protocols-tcp-client",
+      "type": "example",
+      "name": {
+        "en": "TCP Client",
+        "zh-CN": "TCP 客户端"
+      },
+      "summary": {
+        "en": "Creates a TCP socket, connects to a server, and sends data repeatedly.",
+        "zh-CN": "创建 TCP 连接并向服务器重复发送数据。"
+      },
+      "tags": [
+        "networking"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/protocols-tcp-client.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "protocols-tcp-server",
+      "type": "example",
+      "name": {
+        "en": "TCP Echo Server",
+        "zh-CN": "TCP 回显服务器"
+      },
+      "summary": {
+        "en": "Listens on a TCP port, accepts connections, and echoes received data back.",
+        "zh-CN": "监听 TCP 端口，接受连接并将收到的数据回传。"
+      },
+      "tags": [
+        "networking"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/protocols-tcp-server.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "system-os-event",
+      "type": "example",
+      "name": {
+        "en": "OS Event System",
+        "zh-CN": "OS 事件系统"
+      },
+      "summary": {
+        "en": "Subscribes to and publishes named events between threads.",
+        "zh-CN": "在线程间订阅和发布命名事件。"
+      },
+      "tags": [
+        "system"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/system-os-event.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "system-os-kv",
+      "type": "example",
+      "name": {
+        "en": "Key-Value Storage",
+        "zh-CN": "KV 键值存储"
+      },
+      "summary": {
+        "en": "Writes, reads, and deletes persistent key-value pairs in flash.",
+        "zh-CN": "在 Flash 中写入、读取和删除持久化键值对。"
+      },
+      "tags": [
+        "system"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/system-os-kv.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "system-os-mutex",
+      "type": "example",
+      "name": {
+        "en": "Mutex Synchronization",
+        "zh-CN": "互斥锁同步"
+      },
+      "summary": {
+        "en": "Two threads share a counter protected by a mutex to demonstrate safe access.",
+        "zh-CN": "两个线程通过互斥锁保护共享计数器，演示安全访问。"
+      },
+      "tags": [
+        "system"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/system-os-mutex.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "system-os-queue",
+      "type": "example",
+      "name": {
+        "en": "Message Queue",
+        "zh-CN": "消息队列"
+      },
+      "summary": {
+        "en": "One thread posts messages to a queue and another receives them.",
+        "zh-CN": "一个线程向队列投递消息，另一个线程接收处理。"
+      },
+      "tags": [
+        "system"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/system-os-queue.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "system-os-semaphore",
+      "type": "example",
+      "name": {
+        "en": "Semaphore Synchronization",
+        "zh-CN": "信号量同步"
+      },
+      "summary": {
+        "en": "Producer thread posts a semaphore and consumer thread waits on it.",
+        "zh-CN": "生产者线程释放信号量，消费者线程等待并获取。"
+      },
+      "tags": [
+        "system"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/system-os-semaphore.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "system-os-sw-timer",
+      "type": "example",
+      "name": {
+        "en": "Software Timer",
+        "zh-CN": "软件定时器"
+      },
+      "summary": {
+        "en": "Creates a periodic software timer and stops it after a set number of callbacks.",
+        "zh-CN": "创建周期性软件定时器，回调指定次数后停止。"
+      },
+      "tags": [
+        "system"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/system-os-sw-timer.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "system-os-thread",
+      "type": "example",
+      "name": {
+        "en": "Thread Management",
+        "zh-CN": "线程管理"
+      },
+      "summary": {
+        "en": "Creates a thread that runs a loop task and self-deletes after completion.",
+        "zh-CN": "创建线程执行循环任务，完成后自行删除。"
+      },
+      "tags": [
+        "system"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/system-os-thread.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tflite-tflite-helloworld",
+      "type": "example",
+      "name": {
+        "en": "TFLite Micro Inference",
+        "zh-CN": "TFLite Micro 推理"
+      },
+      "summary": {
+        "en": "Runs a TensorFlow Lite Micro model that approximates a sine function on-device.",
+        "zh-CN": "在设备端运行 TensorFlow Lite Micro 模型，近似计算正弦函数。"
+      },
+      "tags": [
+        "tinyml"
+      ],
+      "boards": [],
+      "compatibilityType": "platform",
+      "detailUrl": "demos/example/tflite-tflite-helloworld.json",
+      "publish": true,
+      "platforms": [
+        "t5ai"
+      ],
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-ai-duo-eye-mood",
+      "type": "app",
+      "name": {
+        "en": "AI Chatbot with Mood Eyes",
+        "zh-CN": "AI 情绪眼睛聊天"
+      },
+      "summary": {
+        "en": "AI voice chatbot that displays animated mood-based eye expressions on dual OLED screens.",
+        "zh-CN": "AI 语音聊天机器人，在双 OLED 屏上显示情绪动画眼睛表情。"
+      },
+      "tags": [
+        "ai",
+        "tuya_cloud"
+      ],
+      "boards": [
+        "tuya-t5ai-board"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-ai-duo-eye-mood.json",
+      "publish": true,
+      "image": {
+        "url": "images/tuya-ai-duo-eye-mood/tuya-ai-duo-eye-mood.jpg"
+      },
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-ai-your-chat-bot",
+      "type": "app",
+      "name": {
+        "en": "AI Voice Chatbot",
+        "zh-CN": "AI 语音聊天机器人"
+      },
+      "summary": {
+        "en": "An open-source LLM chatbot that captures voice, performs speech recognition, and displays conversations on screen.",
+        "zh-CN": "基于涂鸦 AI 的大模型语音聊天机器人，支持语音识别与屏幕实时显示对话。"
+      },
+      "tags": [
+        "ai",
+        "tuya_cloud"
+      ],
+      "boards": [
+        "atk-dnesp32s3",
+        "atk-dnesp32s3-box",
+        "atk-dnesp32s3-box2-wifi",
+        "esp32s3-bread-compact-wifi",
+        "tuya-t5ai-board",
+        "tuya-t5ai-core",
+        "tuya-t5ai-evb",
+        "waveshare-esp32s3-touch-amoled-1-8",
+        "waveshare-t5ai-touch-amoled-175",
+        "zectrix-t5ai-note-4",
+        "xingzhi-esp32s3-cube-0-96-oled-wifi",
+        "sparkleiot-t5ai-dev",
+        "brd2605a",
+        "siwx917-ai-dev-kit"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-ai-your-chat-bot.json",
+      "image": {
+        "url": "images/tuya-ai-your-chat-bot/tuya-ai-your-chat-bot.jpg"
+      },
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-ai-your-desk-emoji",
+      "type": "app",
+      "name": {
+        "en": "AI Desk Emoji Robot",
+        "zh-CN": "AI 桌面表情机器人"
+      },
+      "summary": {
+        "en": "AI desk companion with gesture recognition, servo control, emoji display, and weather clock.",
+        "zh-CN": "集手势识别、舵机控制、表情显示和天气时钟的 AI 桌面伴侣。"
+      },
+      "tags": [
+        "ai",
+        "tuya_cloud",
+        "robotics"
+      ],
+      "boards": [
+        "t5ai-mini"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-ai-your-desk-emoji.json",
+      "image": {
+        "url": "images/tuya-ai-your-desk-emoji/tuya-ai-your-desk-emoji.jpg"
+      },
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-ai-your-otto-robot",
+      "type": "app",
+      "name": {
+        "en": "DIY Otto Robot",
+        "zh-CN": "DIY Otto Robot"
+      },
+      "summary": {
+        "en": "Otto Robot is an open-source humanoid robot platform that supports multiple functional extensions.",
+        "zh-CN": "Otto Robot 是一个开源的人形机器人平台，支持多种功能扩展。本指南将帮助您快速搭建和配置属于自己的 Otto 机器人，并通过涂鸦智能APP实现远程控制。"
+      },
+      "tags": [
+        "ai",
+        "robotics",
+        "tuya_cloud"
+      ],
+      "boards": [
+        "t5ai-otto"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-ai-your-otto-robot.json",
+      "image": {
+        "url": "images/tuya-ai-your-otto-robot/tuya-ai-your-otto-robot.jpg"
+      },
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-ai-your-robot-dog",
+      "type": "app",
+      "name": {
+        "en": "AI Robot Dog",
+        "zh-CN": "AI 机器狗"
+      },
+      "summary": {
+        "en": "Voice-driven AI chat robot dog with servo actions and emotion display on LCD.",
+        "zh-CN": "语音驱动的 AI 聊天机器狗，支持舵机动作和表情显示。"
+      },
+      "tags": [
+        "ai",
+        "robotics",
+        "tuya_cloud"
+      ],
+      "boards": [
+        "tuya-t5ai-dog"
+      ],
+      "platforms": [
+        "t5ai"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-ai-your-robot-dog.json",
+      "image": {
+        "url": "images/tuya-ai-your-robot-dog/tuya-ai-your-robot-dog.jpg"
+      },
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-ai-your-serial-chat-bot",
+      "type": "app",
+      "name": {
+        "en": "AI Serial Chat Bot",
+        "zh-CN": "AI 串口聊天机器人"
+      },
+      "summary": {
+        "en": "Relays UART text to cloud AI and returns responses over serial.",
+        "zh-CN": "将 UART 文本转发至云端 AI 并通过串口返回回复。"
+      },
+      "tags": [
+        "ai",
+        "tuya_cloud"
+      ],
+      "boards": [
+        "tuya-t5ai-board",
+        "tuya-t5ai-core",
+        "waveshare-esp32s3-touch-amoled-1-8",
+        "xingzhi-esp32s3-cube-0-96-oled-wifi"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-ai-your-serial-chat-bot.json",
+      "image": {
+        "url": "images/tuya-ai-your-serial-chat-bot/tuya-ai-your-serial-chat-bot.jpg"
+      },
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-cloud-camera-demo",
+      "type": "app",
+      "name": {
+        "en": "Cloud IPC Camera",
+        "zh-CN": "云端 IPC 摄像头"
+      },
+      "summary": {
+        "en": "Implements IPC with P2P video streaming, OTA, and cloud device management.",
+        "zh-CN": "实现 IPC 功能，支持 P2P 视频流、OTA 和云端设备管理。"
+      },
+      "tags": [
+        "tuya_cloud"
+      ],
+      "boards": [],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-cloud-camera-demo.json",
+      "image": {
+        "url": "images/tuya-cloud-camera-demo/tuya-cloud-camera-demo.jpg"
+      },
+      "publish": false,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-cloud-switch-demo",
+      "type": "app",
+      "name": {
+        "en": "IoT Switch",
+        "zh-CN": "IoT 开关"
+      },
+      "summary": {
+        "en": "Cloud-connected switch with app pairing, remote control, LAN, and Bluetooth control.",
+        "zh-CN": "支持 App 配网、远程控制、局域网和蓝牙控制的云端开关。"
+      },
+      "tags": [
+        "tuya_cloud"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/app/tuya-cloud-switch-demo.json",
+      "image": {
+        "url": "images/tuya-cloud-switch-demo/tuya-cloud-switch-demo.jpg"
+      },
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-cloud-weather-get-demo",
+      "type": "app",
+      "name": {
+        "en": "Cloud Weather Query",
+        "zh-CN": "云端天气查询"
+      },
+      "summary": {
+        "en": "Fetches weather data (conditions, forecasts, sunrise/sunset) from a cloud weather API.",
+        "zh-CN": "从云端天气 API 获取实况天气、预报和日出日落数据。"
+      },
+      "tags": [
+        "tuya_cloud"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/app/tuya-cloud-weather-get-demo.json",
+      "image": {
+        "url": "images/tuya-cloud-weather-get-demo/tuya-cloud-weather-get-demo.jpg"
+      },
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-t5-pixel-tuya-t5-pixel-bongocat-kb",
+      "type": "app",
+      "name": {
+        "en": "Pixel Bongo Cat Keyboard",
+        "zh-CN": "像素 Bongo Cat 键盘"
+      },
+      "summary": {
+        "en": "Displays animated Bongo Cat pixel art on a 32x32 LED matrix that reacts to keyboard input.",
+        "zh-CN": "在 32x32 LED 矩阵上显示 Bongo Cat 动画，响应键盘输入。"
+      },
+      "tags": [
+        "pixel-art"
+      ],
+      "boards": [
+        "tuya-t5ai-pixel"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-t5-pixel-tuya-t5-pixel-bongocat-kb.json",
+      "image": {
+        "url": "images/tuya-t5-pixel-tuya-t5-pixel-bongocat-kb/tuya-t5-pixel-tuya-t5-pixel-bongocat-kb.jpg"
+      },
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-t5-pixel-tuya-t5-pixel-demo",
+      "type": "app",
+      "name": {
+        "en": "Pixel Art with Sand Physics",
+        "zh-CN": "像素动画与沙粒物理"
+      },
+      "summary": {
+        "en": "Plays pixel art animations with accelerometer-driven sand physics on a 32x32 LED matrix.",
+        "zh-CN": "在 32x32 LED 矩阵上播放像素动画，支持加速度计沙粒物理效果。"
+      },
+      "tags": [
+        "pixel-art"
+      ],
+      "boards": [
+        "tuya-t5ai-pixel"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-t5-pixel-tuya-t5-pixel-demo.json",
+      "image": {
+        "url": "images/tuya-t5-pixel-tuya-t5-pixel-demo/tuya-t5-pixel-tuya-t5-pixel-demo.jpg"
+      },
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-t5-pixel-tuya-t5-pixel-mic-spectrum-meter",
+      "type": "app",
+      "name": {
+        "en": "Pixel Audio Spectrum Meter",
+        "zh-CN": "像素音频频谱仪"
+      },
+      "summary": {
+        "en": "Performs FFT on microphone input and displays an 8-band spectrum on a 32x32 LED matrix.",
+        "zh-CN": "对麦克风输入做 FFT，在 32x32 LED 矩阵上显示 8 频段频谱。"
+      },
+      "tags": [
+        "pixel-art"
+      ],
+      "boards": [
+        "tuya-t5ai-pixel"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-t5-pixel-tuya-t5-pixel-mic-spectrum-meter.json",
+      "image": {
+        "url": "images/tuya-t5-pixel-tuya-t5-pixel-mic-spectrum-meter/tuya-t5-pixel-tuya-t5-pixel-mic-spectrum-meter.jpg"
+      },
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-t5-pixel-tuya-t5-pixel-simple-shapes",
+      "type": "app",
+      "name": {
+        "en": "Pixel Shape Drawing",
+        "zh-CN": "像素基础图形绘制"
+      },
+      "summary": {
+        "en": "Draws boxes, circles, lines, and triangles on a 32x32 LED pixel matrix.",
+        "zh-CN": "在 32x32 LED 矩阵上绘制方框、圆形、线条和三角形。"
+      },
+      "tags": [
+        "pixel-art"
+      ],
+      "boards": [
+        "tuya-t5ai-pixel"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-t5-pixel-tuya-t5-pixel-simple-shapes.json",
+      "image": {
+        "url": "images/tuya-t5-pixel-tuya-t5-pixel-simple-shapes/tuya-t5-pixel-tuya-t5-pixel-simple-shapes.jpg"
+      },
+      "publish": false,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-t5-pixel-tuya-t5-pixel-sphere-effect",
+      "type": "app",
+      "name": {
+        "en": "Pixel 3D Sphere Effect",
+        "zh-CN": "像素 3D 球体效果"
+      },
+      "summary": {
+        "en": "Renders a rotating 3D sphere on a 32x32 LED matrix with audio-reactive rotation speed.",
+        "zh-CN": "在 32x32 LED 矩阵上渲染旋转 3D 球体，速度随音频变化。"
+      },
+      "tags": [
+        "pixel-art"
+      ],
+      "boards": [
+        "tuya-t5ai-pixel"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-t5-pixel-tuya-t5-pixel-sphere-effect.json",
+      "image": {
+        "url": "images/tuya-t5-pixel-tuya-t5-pixel-sphere-effect/tuya-t5-pixel-tuya-t5-pixel-sphere-effect.jpg"
+      },
+      "publish": false,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-t5-pixel-tuya-t5-pixel-weather",
+      "type": "app",
+      "name": {
+        "en": "Pixel Weather Clock",
+        "zh-CN": "像素天气时钟"
+      },
+      "summary": {
+        "en": "Displays weather icons, temperature, and time cycling on a 32x32 LED pixel matrix.",
+        "zh-CN": "在 32x32 LED 矩阵上循环显示天气图标、温度和时间。"
+      },
+      "tags": [
+        "pixel-art",
+        "tuya_cloud"
+      ],
+      "boards": [
+        "tuya-t5ai-pixel"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-t5-pixel-tuya-t5-pixel-weather.json",
+      "image": {
+        "url": "images/tuya-t5-pixel-tuya-t5-pixel-weather/tuya-t5-pixel-tuya-t5-pixel-weather.jpg"
+      },
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-t5-pocket-tuya-t5-pocket-ai",
+      "type": "app",
+      "name": {
+        "en": "Pocket AI Virtual Pet",
+        "zh-CN": "口袋 AI 虚拟宠物"
+      },
+      "summary": {
+        "en": "Virtual pet device with AI chat, LVGL UI, mini-games, camera, and peripheral sensors.",
+        "zh-CN": "虚拟宠物设备，集成 AI 对话、LVGL 界面、小游戏、摄像头和传感器。"
+      },
+      "tags": [
+        "ai",
+        "pocket",
+        "tuya_cloud"
+      ],
+      "boards": [
+        "tuya-t5ai-pocket"
+      ],
+      "compatibilityType": "board-specific",
+      "detailUrl": "demos/app/tuya-t5-pocket-tuya-t5-pocket-ai.json",
+      "image": {
+        "url": "images/tuya-t5-pocket-tuya-t5-pocket-ai/tuya-t5-pocket-tuya-t5-pocket-ai.jpg"
+      },
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "wifi-ap",
+      "type": "example",
+      "name": {
+        "en": "Wi-Fi Access Point",
+        "zh-CN": "Wi-Fi 热点"
+      },
+      "summary": {
+        "en": "Starts a Wi-Fi AP with configurable SSID and broadcasts UDP packets.",
+        "zh-CN": "启动可配置 SSID 的 Wi-Fi 热点并发送 UDP 广播。"
+      },
+      "tags": [
+        "wifi"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/wifi-ap.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "wifi-low-power",
+      "type": "example",
+      "name": {
+        "en": "Wi-Fi Low Power",
+        "zh-CN": "Wi-Fi 低功耗"
+      },
+      "summary": {
+        "en": "Toggles Wi-Fi low-power mode on and off from multiple tasks.",
+        "zh-CN": "在多任务中交替启用和禁用 Wi-Fi 低功耗模式。"
+      },
+      "tags": [
+        "wifi"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/wifi-low-power.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "wifi-scan",
+      "type": "example",
+      "name": {
+        "en": "Wi-Fi Scan",
+        "zh-CN": "Wi-Fi 扫描"
+      },
+      "summary": {
+        "en": "Scans nearby Wi-Fi networks and reports channel numbers and SSIDs.",
+        "zh-CN": "扫描附近 Wi-Fi 网络并输出信道号和 SSID。"
+      },
+      "tags": [
+        "wifi"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/wifi-scan.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "wifi-sta",
+      "type": "example",
+      "name": {
+        "en": "Wi-Fi Station Connect",
+        "zh-CN": "Wi-Fi Station 连接"
+      },
+      "summary": {
+        "en": "Connects to a Wi-Fi access point in station mode and reports link status.",
+        "zh-CN": "以 Station 模式连接指定 Wi-Fi 热点并上报连接状态。"
+      },
+      "tags": [
+        "wifi"
+      ],
+      "boards": [],
+      "compatibilityType": "universal",
+      "detailUrl": "demos/example/wifi-sta.json",
+      "publish": true,
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-duckyclaw",
+      "type": "app",
+      "name": {
+        "en": "TuyaOpenClaw — Edge AI Agent",
+        "zh-CN": "TuyaOpenClaw 边缘 AI 智能体"
+      },
+      "summary": {
+        "en": "Hardware-oriented AI agent built on the TuyaOpen C SDK. Runs a Claw-style agent loop on edge devices (Tuya T5AI, ESP32, Raspberry Pi, Linux) with IM channels (Telegram, Discord, Feishu, WeChat, QQ Bot) and on-device MCP-style tools.",
+        "zh-CN": "基于 TuyaOpen C SDK 构建的硬件导向 AI Agent。在边缘设备（Tuya T5AI、ESP32、Raspberry Pi、Linux）上运行 Claw 风格 Agent 循环，通过 IM 通道（Telegram、Discord、飞书、微信、QQ 机器人）通信，并在设备端执行 MCP 风格工具调用。"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "tuya-iot"
+      ],
+      "boards": [
+        "tuya-t5ai-core",
+        "tuya-t5ai-board",
+        "esp32s3-bread-compact-wifi",
+        "raspberrypi",
+        "dshanpi-a1",
+        "waveshare-t5ai-touch-amoled-175"
+      ],
+      "compatibilityType": "board-specific",
+      "source": {
+        "repo": "https://github.com/tuya/TuyaOpenClaw",
+        "ref": "master",
+        "kind": "external-repo",
+        "repoCN": "https://gitee.com/tuya-open/TuyaOpenClaw"
+      },
+      "publish": true,
+      "image": {
+        "url": "images/tuya-duckyclaw/banner.png"
+      },
+      "detailUrl": "demos/external-repo/tuya-duckyclaw.json",
+      "sdks": [
+        "tuyaopen"
+      ]
+    },
+    {
+      "id": "tuya-virtuamate",
+      "type": "app",
+      "name": {
+        "en": "VirtuaMate — 3D Avatar AI Agent",
+        "zh-CN": "VirtuaMate — 3D 形象 AI 智能体"
+      },
+      "summary": {
+        "en": "Edge AI agent with VRM 3D avatar, voice chat, IM bots (Feishu / QQ / Telegram), skills, and OpenClaw gateway — runs on Ubuntu PC, Raspberry Pi, TaishanPi, and DshanPi via TuyaOpen.",
+        "zh-CN": "带 VRM 3D 形象的边缘 AI Agent：语音对话、飞书/QQ/Telegram 等 IM 机器人、技能扩展与 OpenClaw 网关，支持 Ubuntu 桌面、树莓派、泰山派、东山派。"
+      },
+      "tags": [
+        "app",
+        "ai",
+        "agent",
+        "linux",
+        "tuya-iot"
+      ],
+      "boards": [
+        "ubuntu",
+        "raspberrypi",
+        "taishanpi-3",
+        "dshanpi-a1"
+      ],
+      "compatibilityType": "board-specific",
+      "source": {
+        "repo": "https://github.com/tuya/VirtuaMate",
+        "ref": "master",
+        "kind": "external-repo"
+      },
+      "publish": true,
+      "image": {
+        "url": "images/tuya-virtuamate/banner.png"
+      },
+      "detailUrl": "demos/external-repo/tuya-virtuamate.json",
+      "sdks": [
+        "tuyaopen"
+      ]
+    }
+  ]
+}
